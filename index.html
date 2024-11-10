@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>My Photography Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #0d0486;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #047e86;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .gallery img:hover {
+            border: 2px solid #333;
+        }
+
+        footer {
+            background-color: #047e86;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Photography</h1>
+    </header>
+    <div class="container">
+        <marquee behavior="h1" direction="left">
+            <p>
+            <h2>My favorite photographs. Feel free to explore and enjoy...</h2>
+            </p>
+        </marquee>
+        <div class="gallery">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpeg" alt="Photo 3">
+            <img src="photo4.jpeg" alt="Photo 4">
+            <img src="photo1.jpg" alt="Photo 1">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Photography Portfolio</p>
+    </footer>
+</body>
+
+</html>
